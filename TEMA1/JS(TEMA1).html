@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let name
+        while (1){
+            name = prompt('Яка «офіційна» назва JavaScript', '').toUpperCase()
+            if (name == ''){
+                alert('Введи значення')
+            }
+            else {
+                break
+            }
+        }
+        if (name == 'ECMASCRIPT') {
+            alert('Правильно!')
+        }
+        else {
+            alert('Не знаєте? ECMAScript!')
+        }
+    </script>
+</body>
+
+</html>
